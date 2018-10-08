@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pip = "==18.0"
+django = "*"
+graphene = "*"
+graphene-django = "*"
+django-revproxy = "*"
+phonenumberslite = "*"
+django-ses = "*"
+zappa = "*"
+"psycopg2-binary" = "*"
+django-graphql-jwt = "*"
+
+[dev-packages]
+django-revproxy = "*"
+
+[requires]
+python_version = "3.6"

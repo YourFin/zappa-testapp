@@ -1,0 +1,5 @@
+db
+.venv
+bind_mount
+# Ignore zappa zips
+*.zip
